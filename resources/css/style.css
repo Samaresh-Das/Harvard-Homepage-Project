@@ -1,0 +1,170 @@
+html{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    top: 0;
+    height: 70px;
+}
+
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav .left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    margin: 20px;
+}
+
+header nav .left ul li{
+    margin-right: 40px;
+    
+}
+
+header nav .right ul{
+    display: flex;
+    margin: 20px;
+}
+
+header nav .right ul li{
+    margin-left: 40px;
+    
+}
+
+a{
+    color: rgb(180, 180, 218);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(70, 137, 238);
+}
+
+header nav .right ul li:last-child{
+    padding-right: 50px;
+}
+
+.maincontent .section1{
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+
+/*to get the text over the background*/
+.maincontent .section1 img{
+    background-size: cover;
+    max-width: 100%;
+    bottom: 70%;
+}
+
+.maincontent .section1 .text{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(244, 250, 255);
+}
+
+.text h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.text h2{
+    font-size: 40px;
+    font-weight: bold;    
+}
+
+.text p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.maincontent .section1 .sign-up{  
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.sign-up .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(255, 174, 23);
+    border-radius: 10px;
+    background-color: rgb(255, 174, 23);
+    padding: 10px 100px;
+    font-size: 30px;
+}
+
+.sign-up .btn:hover a{
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(255, 174, 23) !important;
+}
+
+.section2{
+    background-color: #d4d4d4;
+}
+
+.features1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    height: 200px;
+}
+
+.features1 .feature11 h3{
+    font-weight: 700 ;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid rgb(189, 189, 189);
+}
+
+.section3 .img img{
+    background-size: cover;
+    padding: 30px;
+}
+
+.section3 .img{
+    border-right: 2px solid rgb(179, 179, 179);
+}
+
+.section3 .text1 h4{
+    line-height: 1.5;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 50px;
+    color: #4d4d4d;
+}
+
+.section3 .text1{
+    min-width: 63%;
+    max-height: 50%;
+    background-color: rgb(224, 224, 224);
+}
