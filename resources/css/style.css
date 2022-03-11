@@ -70,13 +70,13 @@ header nav .right ul li:last-child{
     text-align: center;
 }
 
-/*to get the text over the background*/
 .maincontent .section1 img{
     background-size: cover;
     max-width: 100%;
     bottom: 70%;
 }
 
+/*to get the text over the background*/
 .maincontent .section1 .text{  
     position: absolute;
     top: 50%;
