@@ -1,0 +1,46 @@
+@media only screen and (max-width: 900px){
+    header .desk{
+        display: none;
+    }
+     
+    header .mob{
+        display: block;
+        width: 100%;
+        height: 64px; 
+        z-index: 100;   
+        position: fixed; 
+        top:0;   
+    }
+
+    header .mob ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 16px;
+        padding-left:  0px;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .cnt{
+        display: none;
+    }   
+
+    .cntm{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        position: relative;
+        line-height: 5.0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #000C55;
+    }
+
+    h1{
+        margin-top: 30%;
+    }
+
+
+
+}

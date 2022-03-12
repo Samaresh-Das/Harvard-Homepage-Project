@@ -64,6 +64,10 @@ header nav .right ul li:last-child{
     padding-right: 50px;
 }
 
+header .mob{
+    display: none;
+}
+
 .maincontent .section1{
     margin-top: 70px;
     position: relative;
