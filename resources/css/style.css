@@ -89,6 +89,10 @@ header .mob{
     color: rgb(244, 250, 255);
 }
 
+.section1m{
+    display: none;
+}
+
 .text h1{
     font-size: 70px;
     font-weight: 900;
@@ -132,6 +136,10 @@ header .mob{
     background-color: #d4d4d4;
 }
 
+.section2m{
+    display: none;
+}
+
 .features1{
     display: flex;
     flex-direction: row;
@@ -171,4 +179,8 @@ header .mob{
     min-width: 63%;
     max-height: 50%;
     background-color: rgb(224, 224, 224);
+}
+
+.section3m{
+    display: none;
 }

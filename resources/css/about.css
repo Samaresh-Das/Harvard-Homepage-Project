@@ -72,7 +72,8 @@ header nav .right ul li:last-child{
 .txt{
     text-align: center;
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 30%;
     border-radius: 15px;
     background-image: linear-gradient(rgb(138, 80, 139), rgb(153, 214, 255));
@@ -94,5 +95,13 @@ header nav .right ul li:last-child{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color:rgb(49, 49, 49);;
+    color:rgb(49, 49, 49);
+}
+
+.txtm{
+    display: none;
+}
+
+.mob{
+    display: none;
 }
