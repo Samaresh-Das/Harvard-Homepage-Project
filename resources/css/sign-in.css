@@ -95,6 +95,10 @@ header nav .right ul li:last-child{
 
 }
 
+.mob{
+  display: none;
+}
+
 
 ::selection{
   background: #7ccdf3;
